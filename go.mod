@@ -147,8 +147,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-// The following line is a workaround for the issue descrined in https://github.com/containerd/ttrpc/issues/62
-// We can remove this workaround when Kata stop using github.com/gogo/protobuf
-replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8
-
 replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.14.0
