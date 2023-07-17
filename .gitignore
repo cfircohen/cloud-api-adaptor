@@ -31,3 +31,5 @@ settings.auto.pkrvars.hcl
 *.qcow2
 .git-commit
 .git-commit.tmp
+# Secrets
+install/overlays/gcp/GCP_CREDENTIALS
